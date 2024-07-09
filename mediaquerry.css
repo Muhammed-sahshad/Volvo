@@ -1,0 +1,129 @@
+@media (max-width:960px){
+    .volvo-tagline{
+      left: 30px;
+    }
+    .type-quote-1{
+        width: 400px;
+    }
+    .btn2{
+        padding-left: 13px;
+        
+    }
+    .career-join-buttons{
+        flex-direction: row;
+    }
+
+    .footer-infos{
+        flex-direction: column;
+        margin-left: 40px;
+        gap: 80px;
+    }
+    .footer-info-1,.footer-info-2{
+        display:  none;
+    }
+    .footer-info{
+        width: 100%;
+    }
+    .footer-element{
+        width: 500px;
+    }
+    .copyright{
+        align-items: flex-start;
+        margin-left: 40px;
+    }
+
+}
+@media (max-width:992px){
+    .career-join-buttons,.lifestyle-join-buttons{
+        flex-direction: column;
+    }
+}
+@media (max-width:766px){
+
+    .tagline-1,.tagline-2{
+        font-size: 66px;
+    }
+
+    .menu{
+        right: 50px;
+    }
+
+    .volvo-logo{
+        margin-left:-10px ;
+    }
+
+    .volvo-tagline{
+        left: 20px;
+      }
+
+    .title-2{
+        font-size: 27px;
+    }
+
+    .services{
+        margin-left: 5px;
+    }
+
+    .type-img{
+        width: 300px;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+
+    .service-types{
+        gap: 15px;
+    }
+
+    .career,.lifestyle{
+   grid-template-rows:auto 1fr;
+   grid-template-columns: none;
+    }
+
+    .career-join-buttons{
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    .lifestyle-join-buttons{
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .lifestyle-links{
+        margin-top: 30px;
+    }
+
+    .career-text-2{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .footer-element{
+        line-height: 40px;
+    }
+
+    .footer-infos{
+        margin-left: 20px;
+    }
+
+    .copyright{
+        margin-left: 20px;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+    .volvo-tagline{
+        margin-left: -10px;
+    }
+
+}
+@media (max-width:505px){
+
+    .career-join-buttons{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .lifestyle-join-buttons{
+        flex-direction: column;
+        margin-bottom: -10px;
+    }
+}
